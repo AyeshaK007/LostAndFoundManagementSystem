@@ -1,4 +1,4 @@
-# 🔍 Lost & Found Management System
+#  Lost & Found Management System
 
 A robust desktop application built from scratch to streamline the process of reporting, tracking, and matching lost and found items within an organization or campus.
 
