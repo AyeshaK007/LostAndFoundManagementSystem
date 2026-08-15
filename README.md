@@ -1,25 +1,52 @@
-#  Lost & Found Management System
+# Lost & Found Management System 🔎
 
-A robust desktop application built from scratch to streamline the process of reporting, tracking, and matching lost and found items within an organization or campus.
+A Java desktop application for reporting, managing, and matching lost and found items in a campus or organization setting.
 
-##  Core Features
-* **User Authentication:** Secure login and registration for administrators and standard users.
-* **Item Logging:** Easy-to-use forms to report lost or found items with detailed descriptions, categories, dates, and locations.
-* **Smart Matching:** An automated lookup or filtering system to match reported lost items with found inventory.
-* **Database Persistence:** Full CRUD (Create, Read, Update, Delete) operations tied to an SQL backend to ensure data integrity.
+## ✨ Features
 
-##  Tech Stack
-* **Frontend/UI:** Java Swing / JForms (Graphical User Interface)
-* **Backend Logic:** Java (OOP principles)
-* **Database:** SQL (MySQL)
+- User registration and login
+- Lost-item and found-item reporting
+- Item search and management
+- Lost/found matching workflow
+- CRUD operations backed by MySQL
+- Role-aware application flow
+- Java Swing desktop interface
 
-##  Database Schema
-*Briefly describe or show a text-based representation of your tables here. For example:*
-* `Users`: id, username, password, role
-* `Items`: id, item_name, category, status (Lost/Found), date_logged, user_id
+## 🛠️ Tech stack
 
-##  How to Run
-1. Clone the repository: `git clone https://github.com/AyeshaK007/LostAndFoundManagementSystem.git`
-2. Open the project in your preferred IDE (NetBeans).
-3. Set up the SQL database using the provided `.sql` script.
-4. Run the main class to launch the JForms application.
+- **Language:** Java
+- **UI:** Java Swing / NetBeans GUI forms
+- **Database:** MySQL / SQL
+- **Concepts:** OOP, CRUD, authentication, relational data
+
+## 📸 Recommended screenshots
+
+For the portfolio, add 3–4 screenshots to `docs/screenshots/`:
+
+1. Login / registration
+2. Main dashboard
+3. Lost/found item management
+4. Search or matching workflow
+
+A small database schema diagram would also make the SQL portion easier for recruiters to understand.
+
+## 🚀 Run locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/AyeshaK007/LostAndFoundManagementSystem.git
+```
+
+2. Open the project in NetBeans.
+3. Configure the MySQL database using the project's SQL setup.
+4. Update database connection settings if required.
+5. Run the main application class.
+
+## 🎯 What this project demonstrates
+
+This project demonstrates core software-development fundamentals: object-oriented Java, desktop UI development, relational database design, CRUD operations, and translating a real-world workflow into a working application.
+
+## 👩🏻‍💻 Author
+
+**AyeshaK007** — BSCS student focused on frontend development, Python, and data-focused software.
